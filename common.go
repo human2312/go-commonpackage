@@ -8,10 +8,6 @@
  */
 package common
 
-type Common struct {
-
-}
-
-func (this *Common) Hello() string{
+func Hello() string{
 	return "Hello World"
 }
